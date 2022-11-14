@@ -3,11 +3,19 @@
 
 
 
+
 Se trata de un proyecto de ETL que se va a basar en el tennis profesional masculino, centrándose en los torneos jugados durante la temporada de 2021. Los pasos seguidos para la obtención, transformación y carga en una base de datos son los expesados a continuación.
 
 ## 1. Extracción de datos.
 
 El proceso de extracción se ha basado en dos métodos, el primero se ha obtenido un archivo csv descargádolo directamente desde la web de kaggle. El archivo contiene información sobre todos los torneos profesionales jugados desde 2018 hasta febrero de 2022. El otro método utilizado ha sido el scraping, usando la herramienta de Selenium, se han obtenido tres tablas, dos de ellas de la página web de la ATP estadísticas y otra de la página web de la ESPN.
+
+![image](https://user-images.githubusercontent.com/113057530/201792384-ed4ffc67-a9e6-4f48-b500-39a1c680aa71.png)
+
+
+![image](https://user-images.githubusercontent.com/113057530/201792356-5f4d2210-1ec7-4ad0-9592-a1858a8c01b7.png)
+
+
 
 Por estos dos métodos obtenemos finalmente la tabla de torneos, la tabla de efectividad al saque, efectividad al resto y la tabla del ranking ATP, todo ello del año 2021.
 
@@ -36,6 +44,9 @@ El diagrama EER quedaría de la siguiente forma:
 Una vez se ha construido la base de datos, se pueden realizar diversos estudios en función de los parámetros definidos en cada tabla. 
 
 Mediante la BD creada se pueden realizar querys para el estudio de diferentes parámetros. En este caso se ha obtenido información sobre la relación que tienen las efectividades en resto y saque con los partidos ganados, el promedio de aces (saques directos) que se realizan en partidos ganados y perdidos de los torneos con categoría Grand Slam, donde se verifica que no es un determinante a la hora de ganar o perder un partido, es decir la correlación en baja, y verificar que tanto el porcentaje de torneos que se juegan la mayor parte son en pista dura, frente una proporción menos en tierra batida y hierba, teniendo en cuenta los partidos jugados en cada tipo de pista por los tres mejores jugadores del ranking ATP.
+
+![image](https://user-images.githubusercontent.com/113057530/201792292-99aaafab-a3b3-4aad-b420-bc4a5c054405.png)
+
 
 
 
