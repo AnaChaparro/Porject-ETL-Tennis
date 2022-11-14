@@ -1,7 +1,7 @@
 
 # Project ETL Tennis 🎾
 
-[[moises-alex-WqI-PbYugn4-unsplash.jpg](https://github.com/AnaChaparro/Porject-ETL-Tennis/blob/main/im%C3%A1genes/moises-alex-WqI-PbYugn4-unsplash.jpg?raw=true)](https://github.com/AnaChaparro/Porject-ETL-Tennis/blob/main/im%C3%A1genes/moises-alex-WqI-PbYugn4-unsplash.jpg?raw=true)
+
 
 Se trata de un proyecto de ETL que se va a basar en el tennis profesional masculino, centrándose en los torneos jugados durante la temporada de 2021. Los pasos seguidos para la obtención, transformación y carga en una base de datos son los expesados a continuación.
 
@@ -27,6 +27,8 @@ Una vez verificamos que los datos son sólidos y se decide concatenar las tablas
 Una vez tenemos los dos archivos limpios, se procede a la carga en una base de datos utilizando SQL. Se relacionan las tablas de manera que en la tabla de jugadores la PK serán los mismos, conviertiéndose y relacionándose con la tabla de torneos a través de winner y loser de cada partido.
 
 El diagrama EER quedaría de la siguiente forma:
+
+![image](https://user-images.githubusercontent.com/113057530/201791635-885905b8-d7c1-47c9-8a54-3aab41f7e989.png)
 
 
 ## 4. Comprobación de la solidez de la base datos.
