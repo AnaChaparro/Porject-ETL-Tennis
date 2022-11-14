@@ -131,3 +131,5 @@ dmypy.json
 *.log
 *.DS_Store
 /variosdata
+variosdata
+.variosdata
