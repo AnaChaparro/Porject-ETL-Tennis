@@ -58,7 +58,7 @@ Influencia de Aces por partidos ganados y perdidos en torneos Grand Slam.
 
 Influencia del tipo de pista en los partidos ganados y perdidos de los 3 mejores jugadores del ranking.
 
-![image](https://user-images.githubusercontent.com/113057530/201867900-8d281079-9e1c-4889-bbde-edb3e8ee9c84.png)
+![image](https://user-images.githubusercontent.com/113057530/201867900-8d281079-9e1c-4889-bbde-edb3e8ee9c84.png){ width: 100px; }
 
 
 
