@@ -45,7 +45,25 @@ Una vez se ha construido la base de datos, se pueden realizar diversos estudios 
 
 Mediante la BD creada se pueden realizar querys para el estudio de diferentes parámetros. En este caso se ha obtenido información sobre la relación que tienen las efectividades en resto y saque con los partidos ganados, el promedio de aces (saques directos) que se realizan en partidos ganados y perdidos de los torneos con categoría Grand Slam, donde se verifica que no es un determinante a la hora de ganar o perder un partido, es decir la correlación en baja, y verificar que tanto el porcentaje de torneos que se juegan la mayor parte son en pista dura, frente una proporción menos en tierra batida y hierba, teniendo en cuenta los partidos jugados en cada tipo de pista por los tres mejores jugadores del ranking ATP.
 
+### QUERY 1
+Los 20 jugadores con más partidos ganados en 2021, en función de su efectividad de 1er saque (mayor del 60%) y resto al primer servicio.
+
 ![image](https://user-images.githubusercontent.com/113057530/201792292-99aaafab-a3b3-4aad-b420-bc4a5c054405.png)
+
+### QUERY 2
+
+Influencia de Aces por partidos ganados y perdidos en torneos Grand Slam.
+
+### QUERY 3
+
+Influencia del tipo de pista en los partidos ganados y perdidos de los 3 mejores jugadores del ranking.
+
+![image](https://user-images.githubusercontent.com/113057530/201867900-8d281079-9e1c-4889-bbde-edb3e8ee9c84.png)
+
+
+
+
+
 
 
 
